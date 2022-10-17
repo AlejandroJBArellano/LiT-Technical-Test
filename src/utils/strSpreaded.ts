@@ -1,0 +1,1 @@
+export const strSpreaded = (str: string, maxLength: number) => str.length > maxLength ? `${str.split(" ")[0]} ${str.split(" ")[1]}...` : str
